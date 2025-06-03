@@ -13,7 +13,7 @@
   "metadata": {
     "parameterScopes": {}
   },
-  "parameters": {
+  "parameters": { 
     "listOfAllowedLocations": [
       "eastus"
     ]
@@ -27,3 +27,4 @@
   },
   "definitionVersion": "1.*.*"
 }
+//branchtest

@@ -6,7 +6,7 @@
     "displayName": "Storage accounts should restrict network access using virtual network rules"
   },
   "assignment": {
-    "name": "blockpublicstorageaccount",
+    "name": "blockpub-storageaccount",
     "displayName": "Storage accounts should restrict network access using virtual network rules",
     "description": ""
   },

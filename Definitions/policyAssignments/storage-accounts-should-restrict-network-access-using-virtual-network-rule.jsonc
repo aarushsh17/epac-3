@@ -1,0 +1,26 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Azure/enterprise-azure-policy-as-code/main/Schemas/policy-assignment-schema.json",
+  "nodeName": "/root",
+  "definitionEntry": {
+    "policyId": "/providers/Microsoft.Authorization/policyDefinitions/9f766f00-8d11-464e-80e1-4091d7874074",
+    "displayName": "Storage accounts should restrict network access using virtual network rules"
+  },
+  "assignment": {
+    "name": "blockpublicstorageaccount",
+    "displayName": "Storage accounts should restrict network access using virtual network rules",
+    "description": ""
+  },
+  "metadata": {
+    "parameterScopes": {
+      "effect": "deny"
+    }
+  },
+  "overrides": [],
+  "resourceSelectors": [],
+  "scope": {
+    "tenant": [
+      "/providers/Microsoft.Management/managementGroups/MG-11"
+    ]
+  },
+  "definitionVersion": "1.*.*"
+}

@@ -12,7 +12,7 @@
   },
   "metadata": {
     "parameterScopes": {
-      "effect": "deny"
+      "effect": "Audit"
     }
   },
   "overrides": [],
@@ -24,3 +24,4 @@
   },
   "definitionVersion": "1.*.*"
 }
+//dummy

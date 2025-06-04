@@ -15,7 +15,7 @@
   },
   "parameters": {
     "listOfAllowedLocations": [
-      "eastus"
+      "uaenorth"
     ]
   },
   "overrides": [],

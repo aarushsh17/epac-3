@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/Azure/enterprise-azure-policy-as-code/main/Schemas/policy-assignment-schema.json",
   "nodeName": "/root",
   "definitionEntry": {
-    "policyId": "/providers/Microsoft.Authorization/policyDefinitions/9f766f00-8d11-464e-80e1-4091d7874074",
+    "policyId": "/providers/Microsoft.Authorization/policyDefinitions/2a1a9cdf-e04d-429a-8416-3bfb72a1b26f",
     "displayName": "Storage accounts should restrict network access using virtual network rules"
   },
   "assignment": {

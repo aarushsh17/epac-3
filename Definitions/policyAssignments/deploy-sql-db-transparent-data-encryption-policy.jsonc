@@ -16,7 +16,7 @@
     "parameterScopes": {}
   },
    "parameters": {
-    "effect": "Modify"
+    "effect": "DeployIfNotExists"
   },
   "overrides": [],
   "resourceSelectors": [],

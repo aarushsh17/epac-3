@@ -11,9 +11,10 @@
     "description": ""
   },
   "metadata": {
-    "parameterScopes": {
-      "effect": "Deny"
-    }
+    "parameterScopes": {    }
+  },
+  "parameters": {
+    "effect": "Deny"
   },
   "overrides": [],
   "resourceSelectors": [],

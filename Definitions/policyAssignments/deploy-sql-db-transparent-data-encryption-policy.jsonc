@@ -10,7 +10,7 @@
   "assignment": {
     "name": "7ec9ddb3d5da42a88648ea17",
     "displayName": "Deploy SQL DB transparent data encryption",
-    "description": "deployifnotexists "
+    "description": "Modify Type"
   },
   "metadata": {
     "parameterScopes": {}

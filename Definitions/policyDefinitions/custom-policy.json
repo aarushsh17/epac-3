@@ -9,21 +9,7 @@
             "version": "1.0.0",
             "category": "Custom"
         },
-        "parameters": {
-            "effect": {
-                "type": "String",
-                "metadata": {
-                    "displayName": "Effect",
-                    "description": "Enable or disable the execution of the policy"
-                },
-                "allowedValues": [
-                    "Audit",
-                    "Deny",
-                    "Disabled"
-                ],
-                "defaultValue": "Deny"
-            }
-        },
+        "parameters": {        },
         "policyRule": {
             "if": {
               "allOf": [

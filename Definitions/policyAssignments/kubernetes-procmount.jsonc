@@ -17,7 +17,7 @@
   "resourceSelectors": [],
   "scope": {
     "tenant": [
-      "/providers/Microsoft.Management/managementGroups/epac-MG-11-dev"
+      "/providers/Microsoft.Management/managementGroups/MG-11"
     ]
   },
   "definitionVersion": "8.*.*"

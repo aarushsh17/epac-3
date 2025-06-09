@@ -1,0 +1,28 @@
+//Custom Policy
+{
+  "$schema": "https://raw.githubusercontent.com/Azure/enterprise-azure-policy-as-code/main/Schemas/policy-assignment-schema.json",
+  "nodeName": "/root",
+  "definitionEntry": {
+    "policyId": "/providers/Microsoft.Management/managementGroups/MG-11/providers/Microsoft.Authorization/policyDefinitions/686f61e9-238e-44e7-988a-6bf021a9b7fb",
+    "displayName": "Storage Account HTTPS only"
+  },
+  "assignment": {
+    "name": "288487527189457c92c4787b",
+    "displayName": "Storage Account HTTPS only",
+    "description": ""
+  },
+  "metadata": {
+    "parameterScopes": {}
+  },
+  "overrides": [],
+  "resourceSelectors": [],
+  "scope": {
+     "epac-dev": [
+            "/providers/Microsoft.Management/managementGroups/epac-MG-11-dev"
+        ],
+    "tenant": [
+            "/providers/Microsoft.Management/managementGroups/MG-11"
+        ]
+  },
+  "definitionVersion": "1.*.*"
+}

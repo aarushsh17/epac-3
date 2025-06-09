@@ -7,7 +7,7 @@
         "description": "Storage Account HTTPS only",
         "metadata": {
             "version": "1.0.0",
-            "category": "Your Category"
+            "category": "Custom"
         },
         "parameters": {
             "effect": {

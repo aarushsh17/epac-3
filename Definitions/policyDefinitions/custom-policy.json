@@ -1,0 +1,31 @@
+{
+    "name": "686f61e9-238e-44e7-988a-6bf021a9s4fb",
+    "properties": {
+        "displayName": "Storage Accounts use HTTPS only",
+        "policyType": "Custom",
+        "mode": "All",
+        "description": "Storage Account HTTPS only",
+        "metadata": {
+            "version": "1.0.0",
+            "category": "Custom"
+        },
+        "parameters": {        },
+        "policyRule": {
+            "if": {
+              "allOf": [
+          {
+            "field": "type",
+            "equals": "Microsoft.Storage/storageAccounts"
+          },
+          {
+            "field": "Microsoft.Storage/storageAccounts/supportsHttpsTrafficOnly",
+            "notEquals": true
+          }
+        ]
+      },
+      "then": {
+        "effect": "deny"
+      }
+            }
+        }
+    }

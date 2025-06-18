@@ -19,9 +19,6 @@
   "overrides": [],
   "resourceSelectors": [],
   "scope": {
-       "epac-dev": [
-            "/providers/Microsoft.Management/managementGroups/epac-MG-11-dev"
-        ],
     "tenant": [
             "/providers/Microsoft.Management/managementGroups/MG-11"
         ]

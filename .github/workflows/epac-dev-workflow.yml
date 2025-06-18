@@ -4,7 +4,7 @@ name: EPAC Dev Workflow
 on:
   push:
     branches:
-      - feature/**
+      - '**'
     paths:
       - "Definitions/**"
       - ".github/**"

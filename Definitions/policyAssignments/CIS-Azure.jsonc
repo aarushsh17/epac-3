@@ -1,0 +1,31 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Azure/enterprise-azure-policy-as-code/main/Schemas/policy-assignment-schema.json",
+  "nodeName": "/root",
+  "definitionEntry": {
+    "policySetId": "/providers/Microsoft.Authorization/policySetDefinitions/fe7782e4-6ff3-4e39-8d8a-64b6f7b82c85",
+    "displayName": "CIS Azure Foundations v2.1.0"
+  },
+  "assignment": {
+    "name": "5a13a0f42911452eb8a53cbd",
+    "displayName": "CIS Azure Foundations v2.1.0",
+    "description": ""
+  },
+  "metadata": {
+    "parameterScopes": {}
+  },
+  "parameters": {
+    "operationName-b954148f-4c11-4c38-8221-be76711e194a": "Microsoft.Network/networkSecurityGroups/securityRules/write",
+    "operationName-c5447c04-a4d7-4ba8-a263-c9ee321a6858": "Microsoft.Authorization/policyAssignments/delete"
+  },
+  "overrides": [],
+  "resourceSelectors": [],
+  "scope": {
+    "epac-dev": [
+            "/providers/Microsoft.Management/managementGroups/epac-MG-11-dev"
+        ],
+    "tenant": [
+      "/providers/Microsoft.Management/managementGroups/MG-11"
+    ]
+  },
+  "definitionVersion": "1.*.*"
+}

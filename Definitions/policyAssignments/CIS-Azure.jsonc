@@ -21,7 +21,7 @@
   "resourceSelectors": [],
   "scope": {
     "epac-dev": [
-            "/providers/Microsoft.Management/managementGroups/epac-MG-11-dev"
+            "/providers/Microsoft.Management/managementGroups/caf3Sandbox"
         ],
     "tenant": [
       "/providers/Microsoft.Management/managementGroups/MG-11"

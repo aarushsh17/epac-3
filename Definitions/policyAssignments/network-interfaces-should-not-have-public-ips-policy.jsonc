@@ -22,8 +22,9 @@
   },
   "notScopes": {
     "tenant": [
-      "/providers/Microsoft.Management/managementGroups/epac-MG-11-dev"
+      "/providers/Microsoft.Management/managementGroups/caf3Sandbox"
     ]
   },
   "definitionVersion": "1.0.*"
 }
+//dummy

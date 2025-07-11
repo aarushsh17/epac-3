@@ -22,5 +22,10 @@
       "/providers/Microsoft.Management/managementGroups/epac-MG-11-dev"
     ]
   },
+  "notScopes": {
+    "notmyproject": [
+      "/providers/Microsoft.Management/managementGroups/epac-caf3Identity-dev"
+    ]
+  },
   "definitionVersion": "1.*.*"
 }

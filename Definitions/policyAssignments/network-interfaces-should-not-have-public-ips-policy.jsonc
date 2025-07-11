@@ -1,0 +1,33 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Azure/enterprise-azure-policy-as-code/main/Schemas/policy-assignment-schema.json",
+  "nodeName": "/root",
+  "definitionEntry": {
+    "policyId": "/providers/Microsoft.Authorization/policyDefinitions/83a86a26-fd1f-447c-b59d-e51f44264114",
+    "displayName": "Network interfaces should not have public IPs"
+  },
+  "assignment": {
+    "name": "ddae66d874bd4b17b9925a3f",
+    "displayName": "Network interfaces should not have public IPs",
+    "description": "No public IP on NICs"
+  },
+  "metadata": {
+    "parameterScopes": {}
+  },
+  "overrides": [],
+  "resourceSelectors": [],
+  "scope": {
+    "tenant": [
+      "/providers/Microsoft.Management/managementGroups/epac-MG-11-dev"
+    ],
+    "epac-dev": [
+    "providers/Microsoft.Management/managementGroups/epac-caf3Sandbox-dev"
+    ]
+  },
+  "notScopes": {
+    "tenant": [
+      "/providers/Microsoft.Management/managementGroups/epac-caf3Identity-dev"
+    ]
+  },
+  "definitionVersion": "1.0.*"
+}
+//dummy

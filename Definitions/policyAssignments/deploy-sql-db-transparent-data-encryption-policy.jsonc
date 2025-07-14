@@ -27,7 +27,7 @@
     ]
   },
   "notScopes": {
-    "identity": [
+    "tenant": [
       "/providers/Microsoft.Management/managementGroups/epac-caf3Identity-dev"
     ]
   },

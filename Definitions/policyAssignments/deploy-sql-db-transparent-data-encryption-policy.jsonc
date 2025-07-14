@@ -1,0 +1,38 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Azure/enterprise-azure-policy-as-code/main/Schemas/policy-assignment-schema.json",
+  "nodeName": "/root",
+  "definitionEntry": {
+    "policyId": "/providers/Microsoft.Authorization/policyDefinitions/86a912f6-9a06-4e26-b447-11b16ba8659f",
+    "displayName": "Deploy SQL DB transparent data encryption"
+  },
+  "assignment": {
+    "name": "7ec9ddb3d5da42a88648ea17",
+    "displayName": "Deploy SQL DB transparent data encryption",
+    "description": "Modify Type"
+  },
+  "metadata": {
+    "parameterScopes": {}
+  },
+   "parameters": {
+    "effect": "DeployIfNotExists"
+  },
+  "overrides": [],
+  "resourceSelectors": [],
+  "scope": {
+        "epac-dev": [
+            "/providers/Microsoft.Management/managementGroups/epac-caf3Sandbox-dev"
+        ],
+    "tenant": [
+      "/providers/Microsoft.Management/managementGroups/epac-MG-11-dev"
+    ]
+  },
+  "notScopes": {
+    "identity": [
+      "/providers/Microsoft.Management/managementGroups/epac-caf3Identity-dev"
+    ]
+  },
+  "managedIdentityLocations": {
+    "tenant": "uaenorth"
+  },
+  "definitionVersion": "2.2.*"
+}
